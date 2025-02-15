@@ -899,17 +899,27 @@ code {
 }
 
 .explorer {
+  #explorer-content {
+      background-color: var(--background-primary);
+  }
+}
+
+.explorer {
   &:after {
     background: unset;
+    background-color: var(--background-primary);
   }
 }
 button#explorer {
   color: var(--collapse-icon-color-collapsed, var(--nav-heading-color-collapsed));
 }
 #explorer-content {
+  background-color: var(--background-primary);
   & ul {
+  background-color: var(--background-primary);
     & li a {
       color: var(--nav-item-color, var(--nav-heading-color-collapsed));
+      background-color: var(--background-primary);
     }
   }
 }
@@ -973,6 +983,11 @@ button#explorer {
 /* PAGE TITLE */
 .page-title a {
   color: var(--h2-color, var(--link-color, var(--darkgray)));
+}
+
+.page>#quartz-body .sidebar.left:has(.explorer) {
+  background-color: var(--background-primary);
+  position:sticky
 }
 
 /* METADATA */
