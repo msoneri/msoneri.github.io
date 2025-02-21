@@ -5,7 +5,7 @@ title: Home Page
 
 Welcome to my public second brain! This is where I mostly write about computer science topics. It’s organized as a Zettelkasten (or Digital Garden). You can explore different topics, see how they connect and maybe learn something new.
 
-There are multiple ways to navigate my second brain:
+There are multiple ways to navigate my Second Brain:
 
 - Use the search bar on the top right or press cmd+k (ctrl+k on Windows) or click on the Search button (top left) to search for any term.
 - Click on a note to explore its content.
