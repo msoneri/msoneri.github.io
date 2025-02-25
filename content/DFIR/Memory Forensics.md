@@ -3,7 +3,9 @@ tags:
   - dfir
   - memory-forensics
   - volatility
+date: 2025-02-25
 ---
+
 Memory forensics differs from disk forensics analysis since it not only provides information about what resides on the target computer but also provides us with information about the processes or applications that were running at a particular time and detailed information on the execution flow on a system that may not be present in regular storage units or application logs.
 
 Two main phases: Memory Acquisition and Memory Analysis.

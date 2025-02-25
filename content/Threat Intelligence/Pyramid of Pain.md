@@ -1,3 +1,7 @@
+---
+date: 2025-02-18
+---
+
 ![[Pyramid-of-Pain-v2-1-3545198402.png]]
 
 "_**The amount of pain you cause an adversary depends on the types of indicators you are able to make use of**_". - David Bianco
