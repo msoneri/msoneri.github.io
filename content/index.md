@@ -17,3 +17,5 @@ There are multiple ways to navigate my Second Brain:
 If you’d like to learn more about my work and connect, here are some helpful links:
 - [GitHub](https://github.com/msoneri/)
 - [LinkedIn](https://www.linkedin.com/in/msoneri/)
+- [Hack The Box](https://app.hackthebox.com/profile/1557660)
+- [TryHackMe](https://tryhackme.com/p/son)
