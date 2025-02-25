@@ -1,6 +1,7 @@
 ---
 tags:
   - tryhackme/linux/medium
+date: 2025-02-15
 ---
 Challenge Description: Wordpress site. There are vulnerable plugins. 
 

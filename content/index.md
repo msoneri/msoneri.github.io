@@ -1,5 +1,6 @@
 ---
 title: Home Page
+date: 2025-02-26
 ---
 ## Soner's Second Brain 🧠
 

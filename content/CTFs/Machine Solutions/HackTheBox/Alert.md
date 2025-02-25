@@ -1,6 +1,7 @@
 ---
 tags:
   - hackthebox/linux/easy
+date: 2025-02-15
 ---
 
 ## Foothold
