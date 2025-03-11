@@ -2,6 +2,7 @@
 title: Home Page
 date: 2025-02-26
 ---
+
 ## Soner's Second Brain 🧠
 
 Welcome to my public second brain! This is where I mostly write about computer science topics. It’s organized as a Zettelkasten (or Digital Garden). You can explore different topics, see how they connect and maybe learn something new.

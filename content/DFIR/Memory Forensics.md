@@ -6,7 +6,7 @@ tags:
 date: 2025-02-25
 ---
 
-Memory forensics differs from disk forensics analysis since it not only provides information about what resides on the target computer but also provides us with information about the processes or applications that were running at a particular time and detailed information on the execution flow on a system that may not be present in regular storage units or application logs.
+Memory forensics differ from disk forensics analysis since it not only provides information about what resides on the target computer but also provides us with information about the processes or applications that were running at a particular time and detailed information on the execution flow on a system that may not be present in regular storage units or application logs.
 
 Two main phases: Memory Acquisition and Memory Analysis.
 ## Memory Acquisition (Imaging) Tools:
@@ -37,7 +37,7 @@ Some artifacts that can be extracted from the memory dump:
 - **Malware detection** → `windows.malfind`, `windows.ssdt`
 	Malfind checks for suspicious memory regions such as memory regions with non-standard memory protections (RWX, RX without a mapped file), process hollowing and DLL injection.
 
-**Tip:** Even if the partition being fully encrypted, once its mounted, any files accessed on the volume become cached by the [Windows Cache Manager](http://volatility-labs.blogspot.com/2012/10/movp-44-cache-rules-everything-around.html) per normal -- which means the `dumpfiles` plugin can help you recover them in plain text.
+**Tip:** Even if the partition being fully encrypted, once it is mounted, any files accessed on the volume become cached by the [Windows Cache Manager](http://volatility-labs.blogspot.com/2012/10/movp-44-cache-rules-everything-around.html) per normal -- which means the `dumpfiles` plugin can help you recover them in plain text.
 
 
 
