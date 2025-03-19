@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: " | msoneri",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: 'google', tagId: 'G-L9YXRNQRDR' },
     locale: "en-US",
     baseUrl: "msoneri.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
