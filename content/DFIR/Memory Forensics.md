@@ -26,6 +26,9 @@ Some artifacts that can be extracted from the memory dump:
 - **Running processes** → `windows.pslist`, `windows.pstree`, `windows.psscan`
 	Attackers typically disguise malwares with legit file names. To understand which processes are dangerous, check their parent process id (PPID) 
 	To dump a process: `vol.py -f <memory_image> -o . windows.memmap --dump --pid <PID>`
+- **Handles**  → `windows.handles`
+	Handles plugin shows all objects a process has open. Files, registry keys and more.
+	Usage: `vol.py -f <memory_image> windows.handles ‑‑pid <PID>`
 - **Open network connections** → `windows.netscan`
 	Look for unusual network connections
 - **Recently accessed/open files** → `windows.filescan`
@@ -33,7 +36,7 @@ Some artifacts that can be extracted from the memory dump:
 - **Attached device info** → `windows.devicetree`
 - **Loaded DLLs** → `windows.dlllist`
 - **Active user sessions** → `windows.getsids`, `windows.sessioninfo`
-- **Command-line history** → `windows.cmdline`, `windows.cmdline`, `windows.consoles`
+- **Command-line history** → `windows.cmdline`, `windows.consoles`
 - **Malware detection** → `windows.malfind`, `windows.ssdt`
 	Malfind checks for suspicious memory regions such as memory regions with non-standard memory protections (RWX, RX without a mapped file), process hollowing and DLL injection.
 
